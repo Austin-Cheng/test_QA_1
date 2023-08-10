@@ -1,0 +1,10 @@
+version: "3"
+services:
+  it_maintenance_search:
+    image: it_maintenance_search
+    ports:
+      - "8080:8080"
+  graphengine-alg-server-general:
+    image: graphengine-alg-server-general
+    ports:
+      - "8081:8080"

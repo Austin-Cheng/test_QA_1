@@ -1,0 +1,22 @@
+[
+  {
+    "intent": "intent_name1",
+    "category": "category_name1",
+    "space": "graph_name1",
+    "rules": [
+      "{@entity_type1}.*?otherwords",
+      "{@entity_type2}otherwords"
+    ]
+
+  },
+  {
+    "intent": "intent_name2",
+    "category": "category_name2",
+    "space": "graph_name2",
+    "rules": [
+      "{@entity_type1}.*?{@entity_type2}otherwords",
+      "{@entity_type3}otherwords"
+    ]
+
+  }
+]

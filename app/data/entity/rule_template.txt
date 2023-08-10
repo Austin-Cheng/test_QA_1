@@ -1,0 +1,3 @@
+# 规则与实体类型中间用\t分隔，使用时删去此行
+regular_expression1	entity_type1
+[0-9][.]?[0-9][.]?[0-9][.]?[0-9]	entity_type2

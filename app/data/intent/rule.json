@@ -1,0 +1,197 @@
+[
+  {
+    "intent": "异常情况-查文档",
+    "category": "文档查询",
+    "space": "文档",
+    "rules": [
+      "{@abnormal}.*?文档有",
+      "{@abnormal}.*?文章有哪些"
+    ]
+
+  },
+  {
+    "intent": "软件升级异常分类原因解决方案查询",
+    "category": "解决方案查询",
+    "space": "运维",
+    "rules": [
+      "{@software}{@software_version}.*?{@software}{@software_version}.*?{@abnormal}",
+      "{@software_version}.*?{@software_version}.*?{@abnormal}",
+      "{@software_version}.*?{@software_version}.*?{@unspecific_abnormal}",
+      "{@software_version}.*?{@software_version}.*?{@cate}",
+      "{@abnormal}.*?{@software_version}.*?{@software_version}",
+      "{@abnormal}.*?{@resolve_type}.*?{@software_version}.*?{@software_version}"
+
+    ]
+
+  },
+  {
+    "intent": "软件版本异常-分析类型、原因、处理方法（只有一个软件版本）",
+    "category": "解决方案查询",
+    "space": "运维",
+    "rules": [
+      "{@software}.*?{@software_version}.*?{@abnormal}"
+    ]
+
+  },
+
+  {
+    "intent": "升级异常-分析类型、原因、处理方法(无异常情况具体信息）",
+    "category": "解决方案查询",
+    "space": "运维",
+    "rules": [
+      "{@software}.*?{@software_version}.*?报错",
+      "{@software}.*?{@software_version}.*?{@unspecific_abnormal}"
+
+    ]
+
+  },
+
+  {
+    "intent": "升级异常-分析类型、原因、处理方法(只有软件，无软件版本）",
+    "category": "解决方案查询",
+    "space": "运维",
+    "rules": [
+      "{@software}.*?{@abnormal}",
+      "{@software}.*?{@unspecific_abnormal}",
+      "{@software}.*?{@cate}"
+    ]
+
+  },
+  {
+    "intent": "异常信息message-分析类型、原因、处理方法",
+    "category": "解决方案查询",
+    "space": "运维",
+    "rules": [
+      "{@abnormal}"
+    ]
+
+  },
+
+  {
+    "intent": "异常情况-分析类型、原因、处理方法（无软件）",
+    "category": "解决方案查询",
+    "space": "运维",
+    "rules": [
+      "{@abnormal}"
+    ]
+
+  },
+  {
+    "intent": "升级异常-分析类型、原因、处理方法(无软件名称、无异常情况名称）",
+    "category": "解决方案查询",
+    "space": "运维",
+    "rules": [
+      "{@unspecific_abnormal}"
+    ]
+
+  },
+  {
+    "intent": "软件升级流程查询",
+    "category": "升级流程查询",
+    "space": "运维",
+    "rules": [
+      "{@software_version}.*?{@upstep_type}",
+      "{@software}.*?{@upstep_type}"
+
+    ]
+
+  },
+  {
+    "intent": "异常列表",
+    "category": "解决方案查询",
+    "space": "运维",
+    "rules": [
+      "{@software}.*?{@cate_type}",
+      "{@software}.*?{@abnormal_type}",
+      "{@cate}.*?{@abnormal_type}",
+      "{@cate}.*?{@because_type}",
+      "{@cate}.*?(有哪些|都有啥|有什么|总结|哪几种|多少|列表)",
+      "{@cate_type}",
+      "{@abnormal_type}",
+      "{@because_type}",
+      "{@cate}"
+    ]
+
+  },
+
+  {
+    "intent": "通过作用查询命令",
+    "category": "通过作用查询命令",
+    "space": "运维",
+    "rules": [
+      "{@command_describe}.*?{@command_type}",
+      "{@function}.*?{@command_type}"
+    ]
+
+  },
+  {
+    "intent": "命令参数解释",
+    "category": "命令解释",
+    "space": "运维",
+    "rules": [
+      "{@command}.*?{@option}是什么意思",
+      "{@command}.*?{@option}"
+    ]
+
+  },
+  {
+    "intent": "软件版本推理-最新",
+    "category": "软件版本推理-最新",
+    "space": "运维",
+    "rules": [
+      "{@software}.*?最新.*?版本",
+      "{@software}.*?最近.*?版本"
+    ]
+
+  },
+  {
+    "intent": "软件版本推理-统计",
+    "category": "软件版本推理-统计",
+    "space": "运维",
+    "rules": [
+      "{@software}.*?(几|多少)个版本",
+      "{@software}.*?多少版本",
+      "{@software}.*?历史版本.*?多少"
+
+    ]
+
+  },
+  {
+    "intent": "命令描述",
+    "category": "命令解释",
+    "space": "运维",
+    "rules": [
+      "{@command}.*?"
+    ]
+
+  },
+  {
+    "intent": "软件版本介绍",
+    "category": "软件版本介绍",
+    "space": "运维",
+    "rules": [
+      "\\A{@software}.*?{@software_version}\\Z"
+
+    ]
+
+  },
+  {
+    "intent": "名词解释",
+    "category": "名词解释",
+    "space": "概念",
+    "rules": [
+      "\\A{@concept}\\Z"
+    ]
+
+  },
+
+  {
+    "intent": "查文档",
+    "category": "文档查询",
+    "space": "文档",
+    "rules": [
+      ""
+    ]
+
+  }
+]

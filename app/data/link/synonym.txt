@@ -1,0 +1,342 @@
+anyshare	AS
+as	AS
+podcrashloopbackoff	Pod 一直处于 CrashLoopBackOff 状态
+kubectl	kubectl
+create	create
+expose	expose
+run	run
+set	set
+get	get
+explain	explain
+edit	edit
+delete	delete
+logs	logs
+describe	describe
+apply	apply
+join	join
+kubeadm	kubeadm
+exec	exec
+top	top
+annotate	annotate
+autoscale	autoscale
+label	label
+patch	patch
+replace	replace
+rolling-update	rolling-update
+scale	scale
+rollout	rollout
+port-forward	port-forward
+api-versions	api-versions
+cluster-info	cluster-info
+api-resources	api-resources
+用于操作kubernetes集群资源对象的命令	用于操作kubernetes集群资源对象的命令
+通过文件或标准输入创建资源	通过文件或标准输入创建资源
+将已经存在的一个rc、service、deployment或pod暴露为一个新的service	将已经存在的一个RC、Service、Deployment或Pod暴露为一个新的Service
+基于一个镜像在kubernetes集群中启动一个deployment	基于一个镜像在Kubernetes集群中启动一个Deployment
+设置资源对象的某个	设置资源对象的某个
+显示一个或多个资源	显示一个或多个资源。
+获取资源及其字段的文档	获取资源及其字段的文档。
+编辑资源	编辑资源
+根据配置文件、stdin、资源名称或labelselector删除资源	根据配置文件、stdin、资源名称或label selector删除资源
+在屏幕上打印一个容器的日志	在屏幕上打印一个容器的日志
+描述一个或多个资源对象的详细信息	描述一个或多个资源对象的详细信息
+通过文件名或控制台输入，对资源进行配置	通过文件名或控制台输入，对资源进行配置
+k8s集群增加节点	k8s集群增加节点
+kubeadm是一个提供了kubeadminit和kubeadmjoin的工具，作为创建kubernetes集群的“快捷途径”的最佳实践	Kubeadm 是一个提供了 kubeadm init 和 kubeadm join 的工具， 作为创建 Kubernetes 集群的 “快捷途径” 的最佳实践。
+在容器内部执行命令	在容器内部执行命令。
+查看node、pod的实时资源使用情况	查看node、pod 的实时资源使用情况
+更新资源的注解	更新资源的注解。
+对replicationcontroller进行自动伸缩	 对replication controller进行自动伸缩。
+更新（增加、修改或删除）资源上的label（标签）。为kubernetes集群的resource打标签，可以将不同的机器打上不同标签，然后将不同特征的容器调度到不同分组上	更新（增加、修改或删除）资源上的 label（标签）。为kubernetes集群的resource打标签，可以将不同的机器打上不同标签，然后将不同特征的容器调度到不同分组上。
+通过控制台输入更新资源中的字段	通过控制台输入更新资源中的字段。
+通过文件名或控制台输入替换资源	通过文件名或控制台输入替换资源。
+对指定的replicationcontroller执行滚动升级	对指定的replication controller执行滚动升级。
+为replicationcontroller设置新的副本数	 为replication controller设置新的副本数。
+卷展栏管理展开	卷展栏管理展开
+将本地端口转发到pod	将本地端口转发到Pod。
+以“组/版本”的格式输出服务端支持的api版本	以“组/版本”的格式输出服务端支持的API版本
+输出集群信息	输出集群信息
+获取所有resources	获取所有resources
+pod	pod
+pods	pods
+pod	POD
+node	node
+namespace	namespace
+services	services
+deployment	deployment
+-q	-q
+-a	-A
+-nnamespace	-n   namespace
+-owide	-o  wide
+-oname	-o  name
+-oyaml	-o  yaml
+-ojson	-o  json
+-ojsonpath	-o  jsonpath
+-ogo-template	-o  go-template
+-ocustom-columns	-o  custom-columns
+-ffilename	-f Filename
+-k	-k
+-l	-L
+-r	-R
+-l	-l
+-w	-w
+-ccontainername	-c  containerName
+-ppod_name	-p pod_name
+-i	-i
+-t	-t
+clusterrole	clusterrole
+clusterrolebinding	clusterrolebinding
+configmap	configmap
+cronjob	cronjob
+deployment	deployment
+ingress	ingress
+job	job
+namespace	namespace
+poddisruptionbudget	poddisruptionbudget
+priorityclass	priorityclass
+quota	quota
+role	role
+rolebinding	rolebinding
+secret	secret
+service	service
+serviceaccount	serviceaccount
+replicationcontroller	replicationcontroller
+deployment	deployment
+replicaset	replicaset
+--cluster-ip	--cluster-ip
+--dry-run	--dry-run
+env	env
+image	image
+resources	resources
+selector	selector
+serviceaccount	serviceaccount
+subject	subject
+--api-version	--api-version
+--recursive	--recursive
+edit-last-applied	edit-last-applied
+set-last-applied	set-last-applied
+view-last-applied	view-last-applied
+获取所有的resources	获取所有的resources
+输出指定的一个或多个资源的详细信息	输出指定的一个或多个资源的详细信息
+指定pod名称	指定POD名称
+获取节点信息	获取节点信息
+获取所有资源对象	获取所有资源对象
+服务资源	服务资源
+部署	部署
+如果为true，则抑制提示消息	如果为true，则抑制提示消息。
+获取所有namespace资源	获取所有namespace资源
+根据工作空间获取资源	根据工作空间获取资源
+以存文本格式显示资源的附加信息	以存文本格式显示资源的附加信息
+仅打印资源信息	仅打印资源信息
+以yaml格式化输出api对象信息	以yaml格式化输出API对象信息
+以json格式化输出api对象信息	以json格式化输出API对象信息
+以自定义jsonpath模板格式输出api对象信息	以自定义JSONPATH模板格式输出API对象信息
+以自定义的go模板格式输出api对象信息	以自定义的go模板格式输出API对象信息
+自定义要输出的字段	自定义要输出的字段
+指向标识要从服务器获取的资源的文件	指向标识要从服务器获取的资源的文件。
+处理kustomization目录。此标志不能与-f或-r一起使用	处理kustomization目录。此标志不能与-f或-R一起使用。
+要筛选的选择器（标签查询），支持“=”、“=”和“！=”。（例如，l键1=值1，键2=值2）	要筛选的选择器（标签查询），支持“=”、“=”和“！=”。（例如，l键1=值1，键2=值2）
+列出/获取请求的对象后，观察更改	列出/获取请求的对象后，观察更改。
+容器名。如果未指定，使用pod中的一个容器	容器名。如果未指定，使用pod中的一个容器
+pod名	Pod名
+保持pod中容器上的stdin打开，即使没有连接任何东西	保持pod中容器上的stdin打开，即使没有连接任何东西。
+allocateattyforthecontainerinthepod.为pod中的容器分配tty	Allocate a TTY for the container in the pod.为pod中的容器分配TTY。
+为特定群集角色创建群集角色绑定	为特定群集角色创建群集角色绑定
+从本地文件、目录或文本值创建配置映射	从本地文件、目录或文本值创建配置映射
+使用指定的名称创建cron作业	使用指定的名称创建cron作业
+使用指定的名称创建部署	使用指定的名称创建部署
+使用指定的名称创建入口	使用指定的名称创建入口
+使用指定名称创建作业	使用指定名称创建作业
+使用指定的名称创建命名空间	使用指定的名称创建命名空间
+使用指定名称创建pod中断预算	使用指定名称创建pod中断预算
+使用指定的名称创建优先级类	使用指定的名称创建优先级类
+使用指定名称创建配额	使用指定名称创建配额
+使用单个规则创建角色	使用单个规则创建角色
+为特定角色或群集角色创建角色绑定	为特定角色或群集角色创建角色绑定
+使用指定的子命令创建机密	使用指定的子命令创建机密
+使用指定的子命令创建服务	使用指定的子命令创建服务
+使用指定的名称创建服务帐户	使用指定的名称创建服务帐户
+资源类型	资源类型
+资源类型	资源类型
+资源类型	资源类型
+如果是客户端策略，则只打印已发送，未发送。如果是服务器策略，则提交服务器端请求而不持久化资源	如果是客户端策略，则只打印已发送，未发送。如果是服务器策略，则提交服务器端请求而不持久化资源。
+更新pod模板上的环境变量	更新pod模板上的环境变量
+更新pod模板的图像	更新pod模板的图像
+使用pod模板更新对象的资源请求/限制	使用pod模板更新对象的资源请求/限制
+在资源上设置选择器	在资源上设置选择器
+更新资源的服务帐户	更新资源的服务帐户
+更新角色绑定或群集角色绑定中的用户、组或服务帐户	更新角色绑定或群集角色绑定中的用户、组或服务帐户
+获取特定api版本的不同解释（api组/版本）	获取特定API版本的不同解释（API组/版本）
+打印字段的字段（当前只有1级深）	打印字段的字段（当前只有1级深）
+编辑资源/对象的最新上次应用的配置注释	编辑资源/对象的最新上次应用的配置注释
+将活动对象上上次应用的配置注释设置为与文件内容匹配	将活动对象上上次应用的配置注释设置为与文件内容匹配
+查看资源/对象的最新上次应用的配置注释	查看资源/对象的最新上次应用的配置注释
+资源不足	资源不足
+使用了hostport	使用了 hostPort
+拉取镜像失败	拉取镜像失败
+pod描述（例如你本地机器上的mypod.yaml）中有问题	Pod 描述（例如你本地机器上的 mypod.yaml）中有问题
+pod描述中有问题	Pod 描述（例如你本地机器上的 mypod.yaml）中有问题
+mypod.yaml中有问题	Pod 描述（例如你本地机器上的 mypod.yaml）中有问题
+一般情况是pod被调度后，容器资源管理约束造成	一般情况是pod被调度后，容器资源管理约束造成
+容器资源管理约束	一般情况是pod被调度后，容器资源管理约束造成
+镜像名称配置错误或者私有镜像的密钥配置错误导致	镜像名称配置错误或者私有镜像的密钥配置错误导致
+依赖的configmap、secret或者pv等不存在	依赖的 ConfigMap、Secret 或者 PV 等不存在
+请求的资源超过了管理员设置的限制	请求的资源超过了管理员设置的限制
+违反集群的安全策略	违反集群的安全策略
+容器无权操作集群内的资源	容器无权操作集群内的资源
+node失联	Node 失联
+etcd集群管理，“副本重启从集群中移除”行为不必要	etcd集群管理，“副本重启从集群中移除”行为不必要
+mongo回滚失败导致podcrash	mongo 回滚失败导致pod  crash
+镜像名错误	镜像名错误
+镜像无效、不存在	镜像无效、不存在
+镜像无效	镜像无效、不存在
+镜像不存在	镜像无效、不存在
+从私有镜像仓库拉取镜像	从私有镜像仓库拉取镜像
+cri或kubelet故障	CRI或Kubelet故障
+应用崩溃	应用崩溃
+忘记了dockerfile中的cmd指令	忘记了dockerfile中的CMD指令
+pod频繁重启，在running和crashloopbackoff之间循环	pod频繁重启，在running和crashloopbackoff之间循环
+卷挂载问题	卷挂载问题
+node-lifecycle故障	node-lifecycle故障
+就绪探针失败	就绪探针失败
+容器暴露的端口问题	容器暴露的端口问题
+pod停滞在pending状态	Pod 停滞在 Pending 状态
+pod停滞在waiting状态	Pod 停滞在 Waiting 状态
+pod处于crashing或别的不健康状态	Pod 处于 Crashing 或别的不健康状态
+pod处于running状态但是没有正常工作	Pod 处于 Running 状态但是没有正常工作
+pod处于imagepullbackoff状态	Pod 处于 ImagePullBackOff 状态
+pod一直处于crashloopbackoff状态	Pod 一直处于 CrashLoopBackOff 状态
+pod处于error状态	Pod 处于 Error 状态
+pod处于terminating或unknown状态	Pod 处于 Terminating 或 Unknown 状态
+as7019升级到as7020主模块升级完成后proton_etcd起不来	AS7019升级到AS7020主模块升级完成后proton_etcd起不来
+升级过程策略引擎报错podnotready	升级过程策略引擎报错pod not ready
+as7023升级到as7024mongodb升级有两个mongondbpodcrash起不来	AS7023升级到AS7024 mongodb升级有两个mongondb Pod Crash起不来
+podruncontainererror状态	pod RunContainerError状态
+pod中有处于running状态的容器	pod 中有处于running状态的容器
+pod处于notready状态	pod处于NotReady状态
+所有podready状态，但不能访问应用	所有pod ready状态，但不能访问应用
+podpending	Pod 停滞在 Pending 状态
+podwaiting	Pod 停滞在 Waiting 状态
+podcrashing	Pod 处于 Crashing 或别的不健康状态
+podrunning但是没有正常工作	Pod 处于 Running 状态但是没有正常工作
+podimagepullbackoff	Pod 处于 ImagePullBackOff 状态
+podcrashloopbackoff	Pod 一直处于 CrashLoopBackOff 状态
+poderror	Pod 处于 Error 状态
+podterminating	Pod 处于 Terminating 或 Unknown 状态
+podunknown	Pod 处于 Terminating 或 Unknown 状态
+主模块升级完成后proton_etcd起不来	AS7019升级到AS7020主模块升级完成后proton_etcd起不来
+升级过程策略引擎报错podnotready	升级过程策略引擎报错pod not ready
+mongodb升级有两个mongondbpodcrash起不来	AS7023升级到AS7024 mongodb升级有两个mongondb Pod Crash起不来
+podruncontainererror	pod RunContainerError状态
+podnotready	pod处于NotReady状态
+podready但不能访问应用	所有pod ready状态，但不能访问应用
+pod异常类别	Pod异常类别
+etcd异常类别	etcd异常类别
+as	AS
+k8s	k8s
+7.0.1.9	7.0.1.9
+7.0.2.0	7.0.2.0
+7.0.2.1	7.0.2.1
+7.0.2.2	7.0.2.2
+7.0.2.3	7.0.2.3
+7.0.2.4	7.0.2.4
+7.0.2.5	7.0.2.5
+7.0.2.6	7.0.2.6
+7.0.2.7	7.0.2.7
+7.0.3	7.0.3
+7.0.3.1	7.0.3.1
+7.0.3.2	7.0.3.2
+7.0.3.3	7.0.3.3
+7.0.3.4	7.0.3.4
+7.0.3.5	7.0.3.5
+7.0.3.6	7.0.3.6
+v1.20	V1.20
+v1.21	V1.21
+v1.22	V1.22
+v1.23	V1.23
+v1.24	V1.24
+7019	7.0.1.9
+7020	7.0.2.0
+7021	7.0.2.1
+7022	7.0.2.2
+7023	7.0.2.3
+7024	7.0.2.4
+7025	7.0.2.5
+7026	7.0.2.6
+7027	7.0.2.7
+703	7.0.3
+7031	7.0.3.1
+7032	7.0.3.2
+7033	7.0.3.3
+7034	7.0.3.4
+7035	7.0.3.5
+7036	7.0.3.6
+v7.0.1.9	7.0.1.9
+v7.0.2.0	7.0.2.0
+v7.0.2.1	7.0.2.1
+v7.0.2.2	7.0.2.2
+v7.0.2.3	7.0.2.3
+v7.0.2.4	7.0.2.4
+v7.0.2.5	7.0.2.5
+v7.0.2.6	7.0.2.6
+v7.0.2.7	7.0.2.7
+v7.0.3	7.0.3
+v7.0.3.1	7.0.3.1
+v7.0.3.2	7.0.3.2
+v7.0.3.3	7.0.3.3
+v7.0.3.4	7.0.3.4
+v7.0.3.5	7.0.3.5
+v7.0.3.6	7.0.3.6
+v7019	7.0.1.9
+v7020	7.0.2.0
+v7021	7.0.2.1
+v7022	7.0.2.2
+v7023	7.0.2.3
+v7024	7.0.2.4
+v7025	7.0.2.5
+v7026	7.0.2.6
+v7027	7.0.2.7
+v703	7.0.3
+v7031	7.0.3.1
+v7032	7.0.3.2
+v7033	7.0.3.3
+v7034	7.0.3.4
+v7035	7.0.3.5
+v7036	7.0.3.6
+pod功能	pod功能
+service功能	Service功能
+ingress功能	Ingress功能
+创建一个集群资源对象	创建一个集群资源对象
+将资源暴露为新的kubernetesservice	将资源暴露为新的Kubernetes Service
+创建并运行一个或多个容器镜像	创建并运行一个或多个容器镜像
+配置应用资源	配置应用资源
+获取列出一个或多个资源的信息	获取列出一个或多个资源的信息
+获取资源及其字段的文档	获取资源及其字段的文档。
+编辑资源	编辑资源
+删除资源	删除资源
+查看日志	查看日志
+资源对象的详细信息	资源对象的详细信息
+资源配置	资源配置
+k8s增加集群节点	k8s增加集群节点
+创建集群	创建集群
+在容器内部执行命令	在容器内部执行命令
+实时监控资源使用情况	实时监控资源使用情况
+更新资源注解	更新资源注解
+自动伸缩	自动伸缩
+资源标签维护	资源标签维护
+更新资源	更新资源
+替换资源	替换资源
+滚动升级	滚动升级
+为replicationcontroller设置新的副本数	 为replication controller设置新的副本数
+对资源进行管理	对资源进行管理
+端口转发	端口转发
+etcd起不来	AS7019升级到AS7020主模块升级完成后proton_etcd起不来
+proton_etcd起不来	AS7019升级到AS7020主模块升级完成后proton_etcd起不来
+proton-etcd报错	AS7019升级到AS7020主模块升级完成后proton_etcd起不来
+proton-etcd起不来	AS7019升级到AS7020主模块升级完成后proton_etcd起不来
+pod故障	Pod异常类别
+nodenotready	node notready
+mongodb起不来	AS7023升级到AS7024 mongodb升级有两个mongondb Pod Crash起不来
+mongodb报错	AS7023升级到AS7024 mongodb升级有两个mongondb Pod Crash起不来
+ci/cd	CI/CD
+csi	CSI

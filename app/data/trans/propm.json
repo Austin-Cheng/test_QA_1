@@ -1,0 +1,22 @@
+{
+  "abnormal": "异常",
+  "abnormal_cause": "异常原因",
+  "command": "命令",
+  "command_cate": "命令分类",
+  "alias": "别名",
+  "command_name": "命令名",
+  "grammar": "语法",
+  "command_option": "命令选项",
+  "describe": "描述",
+  "option_key": "选项键",
+  "exception_cate": "异常分类",
+  "function": "函数",
+  "software": "软件",
+  "software_upgrade": "软件升级",
+  "software_version": "软件版本",
+  "solution": "解决方案",
+  "upgrade_step": "升级步骤",
+  "abnormal_causes": "异常原因",
+  "method_disposal": "处理方法",
+  "number_versions": "版本数"
+}
